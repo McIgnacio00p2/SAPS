@@ -8,6 +8,7 @@ public class InterfasRegistro extends javax.swing.JFrame {
 
     public InterfasRegistro() {
         initComponents();
+        this.setLocationRelativeTo(null); 
     }
 
     /**
@@ -72,7 +73,7 @@ public class InterfasRegistro extends javax.swing.JFrame {
         jPanel1.add(btnRegistrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 370, -1, 30));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/Login}.png"))); // NOI18N
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 90, -1, 300));
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 110, -1, 230));
 
         jLabel11.setFont(new java.awt.Font("Lucida Sans Unicode", 1, 14)); // NOI18N
         jLabel11.setText("Contraseña:");

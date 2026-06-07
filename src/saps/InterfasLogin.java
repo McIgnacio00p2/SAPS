@@ -8,6 +8,7 @@ public class InterfasLogin extends javax.swing.JFrame {
 
     public InterfasLogin() {
         initComponents();
+        this.setLocationRelativeTo(null); 
     }
 
     /**
