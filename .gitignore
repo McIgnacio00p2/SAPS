@@ -1,0 +1,11 @@
+# Archivos compilados y binarios
+/build/
+/dist/
+*.class
+
+# Configuraciones privadas de NetBeans de tu computadora
+/nbproject/private/
+
+# Archivos del sistema operativo
+Thumbs.db
+.DS_Store
